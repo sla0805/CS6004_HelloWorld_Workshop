@@ -13,7 +13,7 @@ namespace HelloWorldApp
                 Console.Write("Please enter your username: ");
                 string username = Console.ReadLine();
                 Console.WriteLine($"Hello, {username}.");
-                Console.WriteLine("Do you want to exit the program? (y/n)");
+                Console.WriteLine("Do you want to exit the program? (yes/no)");
                 string response = Console.ReadLine();
 
                 if (response == "y")
